@@ -5,7 +5,6 @@ import CloseIcon from "@material-ui/icons/Close";
 
 const useStyles = makeStyles({
     header: {
-        width: "100%",
         padding: "40px 5%",
         color: "#eee",
         display: "flex",
