@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nitinrohra.github.io/static/css/main.4a0eb9a3.chunk.css",
-    "main.js": "/nitinrohra.github.io/static/js/main.eef33c64.chunk.js",
-    "main.js.map": "/nitinrohra.github.io/static/js/main.eef33c64.chunk.js.map",
-    "runtime-main.js": "/nitinrohra.github.io/static/js/runtime-main.44bf242f.js",
-    "runtime-main.js.map": "/nitinrohra.github.io/static/js/runtime-main.44bf242f.js.map",
-    "static/js/2.98a4abad.chunk.js": "/nitinrohra.github.io/static/js/2.98a4abad.chunk.js",
-    "static/js/2.98a4abad.chunk.js.map": "/nitinrohra.github.io/static/js/2.98a4abad.chunk.js.map",
-    "static/js/3.bcd45757.chunk.js": "/nitinrohra.github.io/static/js/3.bcd45757.chunk.js",
-    "static/js/3.bcd45757.chunk.js.map": "/nitinrohra.github.io/static/js/3.bcd45757.chunk.js.map",
+    "main.css": "/nitinrohra.github.io/static/css/main.7d382be2.chunk.css",
+    "main.js": "/nitinrohra.github.io/static/js/main.424e7167.chunk.js",
+    "main.js.map": "/nitinrohra.github.io/static/js/main.424e7167.chunk.js.map",
+    "runtime-main.js": "/nitinrohra.github.io/static/js/runtime-main.db34210e.js",
+    "runtime-main.js.map": "/nitinrohra.github.io/static/js/runtime-main.db34210e.js.map",
+    "static/js/2.22f6b078.chunk.js": "/nitinrohra.github.io/static/js/2.22f6b078.chunk.js",
+    "static/js/2.22f6b078.chunk.js.map": "/nitinrohra.github.io/static/js/2.22f6b078.chunk.js.map",
+    "static/js/3.140a1a56.chunk.js": "/nitinrohra.github.io/static/js/3.140a1a56.chunk.js",
+    "static/js/3.140a1a56.chunk.js.map": "/nitinrohra.github.io/static/js/3.140a1a56.chunk.js.map",
     "index.html": "/nitinrohra.github.io/index.html",
-    "static/css/main.4a0eb9a3.chunk.css.map": "/nitinrohra.github.io/static/css/main.4a0eb9a3.chunk.css.map",
-    "static/js/2.98a4abad.chunk.js.LICENSE.txt": "/nitinrohra.github.io/static/js/2.98a4abad.chunk.js.LICENSE.txt"
+    "static/css/main.7d382be2.chunk.css.map": "/nitinrohra.github.io/static/css/main.7d382be2.chunk.css.map",
+    "static/js/2.22f6b078.chunk.js.LICENSE.txt": "/nitinrohra.github.io/static/js/2.22f6b078.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.44bf242f.js",
-    "static/js/2.98a4abad.chunk.js",
-    "static/css/main.4a0eb9a3.chunk.css",
-    "static/js/main.eef33c64.chunk.js"
+    "static/js/runtime-main.db34210e.js",
+    "static/js/2.22f6b078.chunk.js",
+    "static/css/main.7d382be2.chunk.css",
+    "static/js/main.424e7167.chunk.js"
   ]
 }
