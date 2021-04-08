@@ -1,4 +1,4 @@
-import "./App.css";
+
 import { HashRouter, Route } from "react-router-dom";
 import Work from "./pages/work";
 import Home from "./pages/home";

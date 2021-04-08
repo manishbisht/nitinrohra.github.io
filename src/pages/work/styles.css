@@ -1,50 +1,11 @@
-
-* {
-    box-sizing: border-box;
-  }
-  
-  
-  .column {
-display: flex;
-    float: left;
-    width: 30%;
-    padding: 10px;
-
-  /* padding: 10px; */
-
-  }
-  .column .cardx .res-img{
-
+.maindiv{
+  display: flex;
+}
+.resimg {
     position:center;
     width: auto;
-    height: 350px;
+    height: 650px;
     margin-left: auto;
   margin-right: auto;
     display: block;
-  }
-
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-  .maindiv:hover .res-img {
-    opacity: 0.3;
-  }
-  
-  .maindiv:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
+}
