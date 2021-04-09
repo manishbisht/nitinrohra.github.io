@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import { makeStyles } from "@material-ui/core/styles";
 import CloseIcon from "@material-ui/icons/Close";
+import Social from "./Social";
 
 const useStyles = makeStyles({
     header: {
@@ -74,7 +75,7 @@ const Header = () => {
                 Home
             </a>
             <a className={classes.navItem} href={"/#/work"}>
-                Work
+                <Social />
             </a>
         </div>
     );
