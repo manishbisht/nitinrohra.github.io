@@ -1,8 +1,7 @@
-
 import { HashRouter, Route } from "react-router-dom";
 import Work from "./pages/work";
 import Home from "./pages/home";
-import Social from "./components/header/Social";
+import Social from "./components/social";
 
 const App = () => (
     <HashRouter>

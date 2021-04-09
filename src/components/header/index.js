@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import { makeStyles } from "@material-ui/core/styles";
 import CloseIcon from "@material-ui/icons/Close";
-import Social from "./Social";
+import Social from "../social";
 
 const useStyles = makeStyles({
     header: {
@@ -23,7 +23,7 @@ const useStyles = makeStyles({
                 display: "none",
             },
             "& > div:last-child": {
-                display: "block",
+                display: "flex",
             },
         },
     },
@@ -58,6 +58,7 @@ const useStyles = makeStyles({
             flexDirection: "row",
             fontSize: 14,
             lineHeight: "22px",
+            padding: "0 10px",
         },
         "&:hover": {
             color: "#eee",
@@ -75,8 +76,9 @@ const Header = () => {
                 Home
             </a>
             <a className={classes.navItem} href={"/#/work"}>
-                <Social />
+                Work
             </a>
+            <Social />
         </div>
     );
 
