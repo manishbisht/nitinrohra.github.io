@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 16px 0 8px 0px;
+}
+
+.description {
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    line-height: 20px;
+    margin: 8px 0 16px 0px;
+}
+
+.buttonContainer {
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 14px 24px;
+    border-radius: 100px;
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.showreelVideo {
+    margin: 16px 0px 32px;
+}

@@ -1,0 +1,9 @@
+.header {
+    width: 90vw;
+    color: #eee;
+    display: flex;
+    padding: 40px 5%;
+    position: sticky;
+    top: 0;
+    background-color: #222;
+}

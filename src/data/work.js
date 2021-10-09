@@ -1,30 +1,15 @@
 export default [
     {
-        id: "1",
-        title: "sasas",
-        description: "sasas",
-        image:
-            "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-    },
-    {
-        id: "2",
-        title: "sasas",
-        description: "sasas",
-        image:
-            "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-    },
-    {
-        id: "3",
-        title: "sasas",
-        description: "sasas",
-        image:
-            "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-    },
-    {
-        id: "4",
-        title: "sasas",
-        description: "sasas",
-        image:
-            "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+        id: "0f6280b0-240d-4b35-8d81-2e29585becf7",
+        title: "Noor - A Fashion Campaign",
+        slug: "noor-a-fashion-campaign",
+        type: "Ad. Campaign",
+        role: "DOP",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "cFA6Gx3n-hU",
+            },
+        ],
     },
 ];

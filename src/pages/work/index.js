@@ -3,6 +3,7 @@ import workData from "../../data/work";
 import Header from "../../components/header";
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Grid } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(() => ({
     workItem: {
@@ -10,6 +11,7 @@ const useStyles = makeStyles(() => ({
         backgroundPosition: "center",
         height: "250px",
         cursor: "pointer",
+        display: "block",
         "& > div:first-child": {
             background: "rgba(0, 0, 0, 0.25)",
             height: "100%",
@@ -24,9 +26,14 @@ const useStyles = makeStyles(() => ({
                 fontSize: "16px",
                 fontWeight: 700,
             },
+            "& > div:nth-child(2)": {
+                fontSize: "13px",
+                fontWeight: 400,
+            },
             "& > div:last-child": {
                 fontSize: "13px",
                 fontWeight: 400,
+                fontStyle: "italic",
             },
         },
         "&:hover": {
@@ -36,37 +43,34 @@ const useStyles = makeStyles(() => ({
         },
     },
 }));
+
 const Work = () => {
     const classes = useStyles();
-
-    const renderWorkSection = () => {
-        return (
-            <Box pr="5%" pl="5%">
-                <Grid container spacing={1}>
-                    {workData.map((workItem) => (
-                        <Grid item xs={12} sm={6} lg={4}>
-                            <div
-                                className={classes.workItem}
-                                style={{
-                                    backgroundImage: `url(${workItem.image})`,
-                                }}
-                            >
-                                <div>
-                                    <div>{workItem.title}</div>
-                                    <div>{workItem.description}</div>
-                                </div>
-                            </div>
-                        </Grid>
-                    ))}
-                </Grid>
-            </Box>
-        );
-    };
 
     return (
         <>
             <Header />
-            {renderWorkSection()}
+            <Box pr="5%" pl="5%">
+                <Grid container spacing={1}>
+                    {workData.map((workItem) => (
+                        <Grid item xs={12} sm={6} lg={4}>
+                            <Link
+                                className={classes.workItem}
+                                style={{
+                                    backgroundImage: `url(/images/${workItem.slug}/${workItem.slug}.jpeg)`,
+                                }}
+                                to={`/${workItem.slug}`}
+                            >
+                                <div>
+                                    <div>{workItem.title}</div>
+                                    <div>{workItem.type}</div>
+                                    <div>{workItem.role}</div>
+                                </div>
+                            </Link>
+                        </Grid>
+                    ))}
+                </Grid>
+            </Box>
         </>
     );
 };

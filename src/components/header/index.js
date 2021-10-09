@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import { makeStyles } from "@material-ui/core/styles";
 import CloseIcon from "@material-ui/icons/Close";
 import Social from "../social";
+import styles from "./style.module.css";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
     header: {
@@ -47,6 +49,8 @@ const useStyles = makeStyles({
         },
     },
     navItem: {
+        display: "block",
+        textAlign: "center",
         padding: "0 10px 30px",
         fontSize: 22,
         lineHeight: "32px",
@@ -70,32 +74,50 @@ const Header = () => {
     const classes = useStyles();
     const [isNavOptionsVisible, setIsNavOptionsVisible] = useState(false);
 
-    const renderNavOptions = () => (
-        <div className={classes.navOptions}>
-            <a className={classes.navItem} href={"/#/"}>
-                Home
-            </a>
-            <a className={classes.navItem} href={"/#/work"}>
-                Work
-            </a>
-            <Social />
-        </div>
-    );
+    useEffect(() => {
+        return () => {
+            document.body.style.position = "";
+            document.body.style.top = "";
+        };
+    }, []);
+
+    function toggleNavbar() {
+        if (isNavOptionsVisible) {
+            document.body.style.position = "";
+            document.body.style.top = "";
+        } else {
+            document.body.style.position = "fixed";
+            document.body.style.top = `-${window.scrollY}px`;
+        }
+        setIsNavOptionsVisible(!isNavOptionsVisible);
+    }
 
     return (
-        <header className={classes.header}>
+        <header className={styles.header}>
             <div className={classes.title}>NITIN ROHRA</div>
             <div className={classes.navigation}>
-                <div
-                    onClick={() => setIsNavOptionsVisible(!isNavOptionsVisible)}
-                >
+                <div onClick={toggleNavbar}>
                     {isNavOptionsVisible ? <CloseIcon /> : <MenuIcon />}
                 </div>
-                {renderNavOptions()}
+                <div className={classes.navOptions}>
+                    <Link to="/" className={classes.navItem}>
+                        Home
+                    </Link>
+                    <Link to="/work" className={classes.navItem}>
+                        Work
+                    </Link>
+                    <Social />
+                </div>
             </div>
             {isNavOptionsVisible ? (
                 <div className={classes.fullScreenNavigationContainer}>
-                    {renderNavOptions()}
+                    <Link to="/" className={classes.navItem}>
+                        Home
+                    </Link>
+                    <Link to="/work" className={classes.navItem}>
+                        Work
+                    </Link>
+                    <Social />
                 </div>
             ) : null}
         </header>

@@ -35,10 +35,13 @@ const Social = () => {
             <a className={classes.linkItem}>
                 <InstagramIcon />
             </a>
-            <a className={classes.linkItem}>
+            <a className={classes.linkItem} href="mailto:iamnrohra@gmail.com">
                 <EmailIcon />
             </a>
-            <a className={classes.linkItem}>
+            <a
+                className={classes.linkItem}
+                href="https://api.whatsapp.com/send?phone=918302551835"
+            >
                 <WhatsAppIcon />
             </a>
         </div>

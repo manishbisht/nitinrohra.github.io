@@ -1,0 +1,22 @@
+.container {
+}
+
+.title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.type {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.role {
+    font-style: italic;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+}
