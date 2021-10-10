@@ -117,6 +117,19 @@ export default [
         ],
     },
     {
+        id: "26030513-1860-466e-a0be-df039f75b194",
+        title: "Mukhtalif",
+        slug: "mukhtalif",
+        type: "Ad. Film",
+        role: "DOP",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "DwdyFww2GbU",
+            },
+        ],
+    },
+    {
         id: "a99cf7db-3566-46d6-859d-85df35418128",
         title: "MYNTRA x H&M | MOCK AD.",
         slug: "myntra-x-handm-mock-ad",
