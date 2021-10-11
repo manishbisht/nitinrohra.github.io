@@ -58,7 +58,7 @@ const Work = () => {
                             <Link
                                 className={classes.workItem}
                                 style={{
-                                    backgroundImage: `url(/images/${workItem.slug}/${workItem.slug}.jpg)`,
+                                    backgroundImage: `url(/images/${workItem.slug}/${workItem.slug}.jpeg)`,
                                 }}
                                 to={`/${workItem.slug}`}
                             >
