@@ -10,6 +10,10 @@ export default [
                 type: "VIDEO",
                 videoId: "aCb5V0NZBaI",
             },
+            // {
+            //     type: "IMAGES",
+            //     images: ["image-name", "sss"],
+            // },
         ],
     },
     {
@@ -37,7 +41,7 @@ export default [
                 videoId: "AMsQM1wXAMk",
             },
         ],
-    },  
+    },
     {
         id: "3d8394ae-1c4a-4336-bebf-93cafd363b91",
         title: "The Legend of Jungle",
@@ -63,7 +67,7 @@ export default [
                 videoId: "1t7VMGUZuxg",
             },
         ],
-    }, 
+    },
     {
         id: "0f6280b0-240d-4b35-8d81-2e29585becf7",
         title: "Noor II",

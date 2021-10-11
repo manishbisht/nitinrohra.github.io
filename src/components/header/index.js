@@ -4,22 +4,22 @@ import { makeStyles } from "@material-ui/core/styles";
 import CloseIcon from "@material-ui/icons/Close";
 import Social from "../social";
 import styles from "./style.module.css";
-import { Link } from "react-router-dom";
-import color from "color";
+import { Link, useLocation } from "react-router-dom";
 
 const useStyles = makeStyles({
     header: {
-        padding: "40px 5%",
+        padding: "40px 5vw",
         color: "#eee",
         display: "flex",
     },
     title: {
         flexGrow: 1,
-        fontSize: 22,
-        fontWeight: 600,
-        lineHeight: "22px",
         textDecoration: "none",
-        color: "#FFFFFF",
+        fontStyle: "normal",
+        color: "#ffffff",
+        fontSize: 24,
+        margin: "8px 0 2px 0px",
+        letterSpacing: "0.3vw",
     },
     navigation: {
         "& > div:first-child": {
@@ -79,6 +79,9 @@ const useStyles = makeStyles({
 });
 
 const Header = () => {
+    const location = useLocation();
+
+    console.log(location);
     const classes = useStyles();
     const [isNavOptionsVisible, setIsNavOptionsVisible] = useState(false);
 
@@ -102,7 +105,14 @@ const Header = () => {
 
     return (
         <header className={styles.header}>
-            <Link to="/" className={classes.title}>
+            <Link to="/" className={styles.title}>
+                <img
+                    className={styles.icon}
+                    src={"/images/white-logo.png"}
+                    alt="white-logo"
+                    width={24}
+                    loading="lazy"
+                />
                 nitin rohra
             </Link>
             <div className={classes.navigation}>
@@ -110,10 +120,26 @@ const Header = () => {
                     {isNavOptionsVisible ? <CloseIcon /> : <MenuIcon />}
                 </div>
                 <div className={classes.navOptions}>
-                    <Link to="/" className={classes.navItem}>
-                        Home
+                    <Link
+                        to="/"
+                        className={classes.navItem}
+                        style={
+                            location.pathname === "/"
+                                ? { color: "#FFFFFF" }
+                                : {}
+                        }
+                    >
+                        Showreel
                     </Link>
-                    <Link to="/work" className={classes.navItem}>
+                    <Link
+                        to="/work"
+                        className={classes.navItem}
+                        style={
+                            location.pathname === "/work"
+                                ? { color: "#FFFFFF" }
+                                : {}
+                        }
+                    >
                         Work
                     </Link>
                     <Social />
@@ -121,10 +147,26 @@ const Header = () => {
             </div>
             {isNavOptionsVisible ? (
                 <div className={classes.fullScreenNavigationContainer}>
-                    <Link to="/" className={classes.navItem}>
-                        Home
+                    <Link
+                        to="/"
+                        className={classes.navItem}
+                        style={
+                            location.pathname === "/"
+                                ? { color: "#FFFFFF" }
+                                : {}
+                        }
+                    >
+                        Showreel
                     </Link>
-                    <Link to="/work" className={classes.navItem}>
+                    <Link
+                        to="/work"
+                        className={classes.navItem}
+                        style={
+                            location.pathname === "/work"
+                                ? { color: "#FFFFFF" }
+                                : {}
+                        }
+                    >
                         Work
                     </Link>
                     <Social />

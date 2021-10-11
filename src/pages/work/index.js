@@ -12,6 +12,7 @@ const useStyles = makeStyles(() => ({
         height: "250px",
         cursor: "pointer",
         display: "block",
+        textDecoration: "none",
         "& > div:first-child": {
             background: "rgba(0, 0, 0, 0.25)",
             height: "100%",
@@ -51,7 +52,7 @@ const Work = () => {
     return (
         <>
             <Header />
-            <Box pr="5%" pl="5%">
+            <Box pr="5vw" pl="5vw">
                 <Grid container spacing={1}>
                     {workData.map((workItem) => (
                         <Grid item xs={12} sm={6} lg={4}>

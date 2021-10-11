@@ -26,13 +26,18 @@ const Social = () => {
     const classes = useStyles();
     return (
         <div className={classes.linkContainer}>
-            <a className={classes.linkItem} target="_blank">
-                <FacebookIcon />
-            </a>
-            <a className={classes.linkItem} target="_blank">
+            <a
+                className={classes.linkItem}
+                target="_blank"
+                href="https://twitter.com/nitinrohra_"
+            >
                 <TwitterIcon />
             </a>
-            <a className={classes.linkItem} target="_blank">
+            <a
+                className={classes.linkItem}
+                target="_blank"
+                href="https://www.instagram.com/nitinrohra_"
+            >
                 <InstagramIcon />
             </a>
             <a

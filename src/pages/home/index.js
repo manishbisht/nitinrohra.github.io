@@ -19,12 +19,12 @@ const Home = () => {
                 <img
                     src={"/images/white-logo.png"}
                     alt="white-logo"
-                    width={50}
+                    width={100}
                     loading="lazy"
                 />
             </div>
             <div className={styles.title}>nitin rohra</div>
-            <div className={styles.description}>cinematographer</div>
+            <div className={styles.description}>Director of Photography</div>
             <div className={styles.buttonContainer}>
                 <Link to="/work" className={styles.button}>
                     See My Work

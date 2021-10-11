@@ -1,9 +1,25 @@
+.title {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    flex-grow: 1;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 0.3vw;
+    text-decoration: none;
+}
+
 .header {
     width: 90vw;
     color: #eee;
     display: flex;
-    padding: 40px 5%;
+    align-items: center;
+    padding: 40px 5vw;
     position: sticky;
     top: 0;
     background-color: #222;
+}
+
+.icon {
+    margin-right: 16px;
 }
