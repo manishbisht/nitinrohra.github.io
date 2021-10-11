@@ -26,20 +26,25 @@ const Social = () => {
     const classes = useStyles();
     return (
         <div className={classes.linkContainer}>
-            <a className={classes.linkItem}>
+            <a className={classes.linkItem} target="_blank">
                 <FacebookIcon />
             </a>
-            <a className={classes.linkItem}>
+            <a className={classes.linkItem} target="_blank">
                 <TwitterIcon />
             </a>
-            <a className={classes.linkItem}>
+            <a className={classes.linkItem} target="_blank">
                 <InstagramIcon />
             </a>
-            <a className={classes.linkItem} href="mailto:iamnrohra@gmail.com">
+            <a
+                className={classes.linkItem}
+                target="_blank"
+                href="mailto:iamnrohra@gmail.com"
+            >
                 <EmailIcon />
             </a>
             <a
                 className={classes.linkItem}
+                target="_blank"
                 href="https://api.whatsapp.com/send?phone=918302551835"
             >
                 <WhatsAppIcon />

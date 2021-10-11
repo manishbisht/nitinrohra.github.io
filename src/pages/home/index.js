@@ -23,15 +23,15 @@ const Home = () => {
                     loading="lazy"
                 />
             </div>
-            <div className={styles.title}>Nitin Rohra</div>
-            <div className={styles.description}>Cinematographer</div>
+            <div className={styles.title}>nitin rohra</div>
+            <div className={styles.description}>cinematographer</div>
             <div className={styles.buttonContainer}>
                 <Link to="/work" className={styles.button}>
                     See My Work
                 </Link>
             </div>
             <div className={styles.showreelVideo}>
-                <YouTubePlayer videoId="uIBUhQ88AYw" />
+                <YouTubePlayer className={styles.video} videoId="uIBUhQ88AYw" />
             </div>
             <Social />
         </Box>

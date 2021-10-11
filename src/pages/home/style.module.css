@@ -11,7 +11,7 @@
     color: #ffffff;
     font-size: 16px;
     line-height: 21px;
-    margin: 16px 0 8px 0px;
+    margin: 8px 0 2px 0px;
 }
 
 .description {
@@ -20,7 +20,7 @@
     color: rgb(153, 153, 153);
     font-size: 14px;
     line-height: 20px;
-    margin: 8px 0 16px 0px;
+    margin: 2px 0 28px 0px;
 }
 
 .buttonContainer {
@@ -46,4 +46,9 @@
 
 .showreelVideo {
     margin: 16px 0px 32px;
+}
+
+.video {
+    width: 90vw;
+    height: calc(90vw / 2.35);
 }

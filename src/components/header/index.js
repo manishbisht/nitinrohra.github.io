@@ -5,6 +5,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import Social from "../social";
 import styles from "./style.module.css";
 import { Link } from "react-router-dom";
+import color from "color";
 
 const useStyles = makeStyles({
     header: {
@@ -12,7 +13,14 @@ const useStyles = makeStyles({
         color: "#eee",
         display: "flex",
     },
-    title: { flexGrow: 1, fontSize: 22, fontWeight: 600, lineHeight: "22px" },
+    title: {
+        flexGrow: 1,
+        fontSize: 22,
+        fontWeight: 600,
+        lineHeight: "22px",
+        textDecoration: "none",
+        color: "#FFFFFF",
+    },
     navigation: {
         "& > div:first-child": {
             display: "block",
@@ -94,7 +102,9 @@ const Header = () => {
 
     return (
         <header className={styles.header}>
-            <div className={classes.title}>NITIN ROHRA</div>
+            <Link to="/" className={classes.title}>
+                nitin rohra
+            </Link>
             <div className={classes.navigation}>
                 <div onClick={toggleNavbar}>
                     {isNavOptionsVisible ? <CloseIcon /> : <MenuIcon />}

@@ -25,6 +25,7 @@ const useStyles = makeStyles(() => ({
             "& > div:first-child": {
                 fontSize: "16px",
                 fontWeight: 700,
+                textTransform: "uppercase",
             },
             "& > div:nth-child(2)": {
                 fontSize: "13px",
@@ -57,7 +58,7 @@ const Work = () => {
                             <Link
                                 className={classes.workItem}
                                 style={{
-                                    backgroundImage: `url(/images/${workItem.slug}/${workItem.slug}.jpeg)`,
+                                    backgroundImage: `url(/images/${workItem.slug}/${workItem.slug}.jpg)`,
                                 }}
                                 to={`/${workItem.slug}`}
                             >
