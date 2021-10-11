@@ -4,7 +4,7 @@ export default [
         title: "Noor I",
         slug: "noor-a-fashion-campaign-one",
         type: "Ad. Campaign",
-        role: "DOP",
+        role: "DOP, Editor",
         details: [
             {
                 type: "VIDEO",
@@ -30,7 +30,7 @@ export default [
         title: "Women of 2035",
         slug: "women-of-2035",
         type: "Campaign Film",
-        role: "II unit Cinematographer",
+        role: "II DOP",
         details: [
             {
                 type: "VIDEO",
@@ -56,7 +56,7 @@ export default [
         title: "WCMT x ISOBAR",
         slug: "wcmt-x-isobar",
         type: "Concert Highlights",
-        role: "DOP",
+        role: "DOP, Editor",
         details: [
             {
                 type: "VIDEO",
@@ -69,7 +69,7 @@ export default [
         title: "Noor II",
         slug: "noor-a-fashion-campaign-two",
         type: "Ad. Campaign",
-        role: "DOP",
+        role: "DOP, Editor",
         details: [
             {
                 type: "VIDEO",
@@ -95,7 +95,7 @@ export default [
         title: "Dream Girl",
         slug: "dream-girl",
         type: "Short Film",
-        role: "II Unit Cinematographer",
+        role: "II DOP",
         details: [
             {
                 type: "VIDEO",
@@ -121,7 +121,7 @@ export default [
         title: "Mukhtalif",
         slug: "mukhtalif",
         type: "Ad. Film",
-        role: "DOP",
+        role: "DOP, Editor",
         details: [
             {
                 type: "VIDEO",
@@ -198,7 +198,7 @@ export default [
         id: "ee942925-64a4-4481-a8dd-667685e33884",
         title: "Showbuzz",
         slug: "showbuzz",
-        type: "Ad. Campaign",
+        type: "Event Highlights",
         role: "DOP",
         details: [
             {
