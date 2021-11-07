@@ -40,6 +40,7 @@ const useStyles = makeStyles({
     fullScreenNavigationContainer: {
         backgroundColor: "#222",
         position: "fixed",
+        zIndex: 10,
         top: 107,
         height: "calc(100vh - 107px)",
         width: "calc(100% - 10%)",
