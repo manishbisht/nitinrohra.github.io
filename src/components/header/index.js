@@ -24,6 +24,9 @@ const useStyles = makeStyles({
     navigation: {
         "& > div:first-child": {
             display: "block",
+            position: "fixed",
+            right: "5vw",
+            top: 44,
         },
         "& > div:last-child": {
             display: "none",
@@ -39,12 +42,10 @@ const useStyles = makeStyles({
     },
     fullScreenNavigationContainer: {
         backgroundColor: "#222",
-        position: "fixed",
-        zIndex: 10,
-        top: 107,
-        height: "calc(100vh - 107px)",
-        width: "calc(100% - 10%)",
-        display: "block",
+        marginTop: 40,
+        height: "calc(100vh - 40px - 70px - 40px)",
+        display: "flex",
+        flexDirection: "column",
         "@media only screen and (min-width: 768px)": {
             display: "none",
         },
@@ -82,7 +83,6 @@ const useStyles = makeStyles({
 const Header = () => {
     const location = useLocation();
 
-    console.log(location);
     const classes = useStyles();
     const [isNavOptionsVisible, setIsNavOptionsVisible] = useState(false);
 
