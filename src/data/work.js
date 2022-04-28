@@ -4,7 +4,7 @@ export default [
         title: "Noor I",
         slug: "noor-a-fashion-campaign-one",
         type: "Ad. Campaign",
-        role: "DOP, Editor",
+        role: "DOP | Editor",
         details: [
             {
                 type: "VIDEO",
@@ -14,6 +14,45 @@ export default [
             //     type: "IMAGES",
             //     images: ["image-name", "sss"],
             // },
+        ],
+    },
+    {
+        id: "1e3f9709-11c7-47e1-893f-798296bb6b07",
+        title: "Alif",
+        slug: "alif",
+        type: "Portrait Film",
+        role: "DOP | Editor",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "bHUGAE7BT9E",
+            },
+        ],
+    },
+    {
+        id: "2e3c8681-64ce-49b8-b0a3-adab5d66bb5e",
+        title: "Well Played",
+        slug: "well-played",
+        type: "Book Trailer",
+        role: "DOP | Editor",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "71vcVpXvFzE",
+            },
+        ],
+    },
+    {
+        id: "50b74047-d68c-4c18-b68c-311cb1573bb6",
+        title: "Celestial",
+        slug: "celestial",
+        type: "Event Highlights",
+        role: "DOP | Editor",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "g1arQ_F-n80",
+            },
         ],
     },
     {
@@ -60,7 +99,7 @@ export default [
         title: "WCMT x ISOBAR",
         slug: "wcmt-x-isobar",
         type: "Concert Highlights",
-        role: "DOP, Editor",
+        role: "DOP | Editor",
         details: [
             {
                 type: "VIDEO",
@@ -73,7 +112,7 @@ export default [
         title: "Noor II",
         slug: "noor-a-fashion-campaign-two",
         type: "Ad. Campaign",
-        role: "DOP, Editor",
+        role: "DOP | Editor",
         details: [
             {
                 type: "VIDEO",
@@ -125,7 +164,7 @@ export default [
         title: "Mukhtalif",
         slug: "mukhtalif",
         type: "Ad. Film",
-        role: "DOP, Editor",
+        role: "DOP | Editor",
         details: [
             {
                 type: "VIDEO",
