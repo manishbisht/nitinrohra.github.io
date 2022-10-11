@@ -50,7 +50,7 @@ const Social = () => {
             <a
                 className={classes.linkItem}
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=918302551835"
+                href="https://api.whatsapp.com/send?phone=447587410638"
             >
                 <WhatsAppIcon />
             </a>
