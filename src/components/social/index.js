@@ -1,9 +1,10 @@
 import React from "react";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
+// import FacebookIcon from "@material-ui/icons/Facebook";
+// import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import EmailIcon from "@material-ui/icons/Email";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import { ReactComponent as IMDbIcon } from "../../assets/svg/IMDB_Logo_2016.svg"
 import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
@@ -19,6 +20,10 @@ const useStyles = makeStyles({
         "&:hover": {
             color: "#eee",
         },
+        "& .IMDbIcon": {
+            width: "34px",
+            height: "auto"
+        }
     },
 });
 
@@ -26,12 +31,30 @@ const Social = () => {
     const classes = useStyles();
     return (
         <div className={classes.linkContainer}>
-            <a
+            {/* <a
                 className={classes.linkItem}
                 target="_blank"
                 href="https://twitter.com/nitinrohra_"
             >
                 <TwitterIcon />
+            </a> */}
+
+            {/* either import it from public and use it in img tag */}
+            {/* <a
+                className={classes.linkItem}
+                target="_blank"
+                href="https://www.imdb.com/name/nm13562224/"
+            >
+                <img src="/images/IMDB_Logo_2016.svg" />
+            </a> */} 
+
+            {/* calling it as an svg icon by keeping it in src assets folder */}
+            <a
+                className={classes.linkItem}
+                target="_blank"
+                href="https://www.imdb.com/name/nm13562224/"
+            >
+                <IMDbIcon className="IMDbIcon" />
             </a>
             <a
                 className={classes.linkItem}
