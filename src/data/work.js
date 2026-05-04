@@ -1,5 +1,47 @@
 export default [
     {
+        id: "e889d739-ae26-481c-95cc-df8124fc76bf",
+        title: "Mozart AI Ad Film",
+        slug: "Mozart-1",
+        type: "Ad. Film",
+        role: "DOP | Editor | Producer",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "DQSgL4EOEfs",
+            },
+            // {
+            //     type: "IMAGES",
+            //     images: ["image-name", "sss"],
+            // },
+        ],
+    },
+    {
+        id: "663ebc0e-ac7a-46b1-a49d-f07d8e471203",
+        title: "Stay",
+        slug: "Stay",
+        type: "Short Film",
+        role: "DOP",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "mfjcyo_uggM",
+            },
+        ],
+    },
+    {
+        id: "cfa3e497-e755-4076-a4c4-3f87187250a3",
+        title: "Ikko Dil",
+        slug: "ikko-dil",
+        type: "Music Video",
+        role: "1st AC",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "zG_6IhZEO1M",
+            },
+        ],
+    },{
         id: "421ce365-ad3a-4d2a-bdbe-bbb65d3d97ba",
         title: "Noor I",
         slug: "noor-a-fashion-campaign-one",
