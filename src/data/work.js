@@ -1,8 +1,8 @@
 export default [
     {
         id: "e889d739-ae26-481c-95cc-df8124fc76bf",
-        title: "Mozart AI Ad Film",
-        slug: "Mozart-1",
+        title: "Mozart AI 1.0",
+        slug: "Mozart-2",
         type: "Ad. Film",
         role: "DOP | Editor | Producer",
         details: [
@@ -85,6 +85,31 @@ export default [
         ],
     },
     {
+        id: "3e17e770-c383-4ece-b5f6-83b81dab5b51",
+        title: "Mozart AI 0.5",
+        slug: "Mozart-1",
+        type: "Ad Film",
+        role: "Director | DOP | Editor",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "sQdj2qvAWFk",
+            },
+        ],
+    },     {
+        id: "ec3391c7-4138-4a79-b6b3-438f5924d3dc",
+        title: "Seasons - Mychelle",
+        slug: "seasons",
+        type: "Music Video",
+        role: "Grip Trainee",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "5ESdkAMnBzI",
+            },
+        ],
+    },    
+    {
         id: "50b74047-d68c-4c18-b68c-311cb1573bb6",
         title: "Celestial",
         slug: "celestial",
@@ -107,6 +132,20 @@ export default [
             {
                 type: "VIDEO",
                 videoId: "9SNHbp_uJ2k",
+            },
+        ],
+    },
+        },
+    {
+        id: "58a2d994-c798-4902-891b-b22169e83dc3",
+        title: "Bittu",
+        slug: "bittu",
+        type: "Short Film",
+        role: "Production Manager",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "j0bGpJZJDZ8",
             },
         ],
     },
