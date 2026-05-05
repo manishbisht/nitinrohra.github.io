@@ -135,7 +135,6 @@ export default [
             },
         ],
     },
-        },
     {
         id: "58a2d994-c798-4902-891b-b22169e83dc3",
         title: "Bittu",
