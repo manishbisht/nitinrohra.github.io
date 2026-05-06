@@ -1,7 +1,7 @@
 export default [
     {
         id: "e889d739-ae26-481c-95cc-df8124fc76bf",
-        title: "Mozart AI 1.0",
+        title: "Mozart Mobile",
         slug: "Mozart-2",
         type: "Ad. Film",
         role: "DOP | Editor | Producer",
@@ -41,7 +41,21 @@ export default [
                 videoId: "zG_6IhZEO1M",
             },
         ],
-    },{
+    },
+    {
+        id: "d0eb5d0a-c6f1-4655-96ea-07d92177263c",
+        title: "The Room",
+        slug: "the-room",
+        type: "Short Film",
+        role: "DOP",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "HgRU-E9HuUs",
+            },
+        ],
+    },
+    {
         id: "421ce365-ad3a-4d2a-bdbe-bbb65d3d97ba",
         title: "Noor I",
         slug: "noor-a-fashion-campaign-one",
@@ -51,6 +65,40 @@ export default [
             {
                 type: "VIDEO",
                 videoId: "aCb5V0NZBaI",
+            },
+            // {
+            //     type: "IMAGES",
+            //     images: ["image-name", "sss"],
+            // },
+        ],
+    },
+    {
+        id: "b9501142-03cd-4adb-987b-820227d27ea1",
+        title: "AI Hack",
+        slug: "ai-hack",
+        type: "Hackathon Film",
+        role: "DOP | Editor",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "J-satEynTvc",
+            },
+            // {
+            //     type: "IMAGES",
+            //     images: ["image-name", "sss"],
+            // },
+        ],
+    },
+    {
+        id: "762f219a-df71-424f-99ca-02b842f9d62b",
+        title: "Can I Just Say Something",
+        slug: "cijss",
+        type: "Short Film",
+        role: "Gaffer",
+        details: [
+            {
+                type: "VIDEO",
+                videoId: "t80rkcmYVNg",
             },
             // {
             //     type: "IMAGES",
