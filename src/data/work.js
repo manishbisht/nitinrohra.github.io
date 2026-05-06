@@ -2,7 +2,7 @@ export default [
     {
         id: "e889d739-ae26-481c-95cc-df8124fc76bf",
         title: "Mozart Mobile",
-        slug: "Mozart-2",
+        slug: "mozart-2",
         type: "Ad. Film",
         role: "DOP | Editor | Producer",
         details: [
@@ -19,7 +19,7 @@ export default [
     {
         id: "663ebc0e-ac7a-46b1-a49d-f07d8e471203",
         title: "Stay",
-        slug: "Stay",
+        slug: "stay",
         type: "Short Film",
         role: "DOP",
         details: [
@@ -148,7 +148,7 @@ export default [
     {
         id: "3e17e770-c383-4ece-b5f6-83b81dab5b51",
         title: "Mozart AI 0.5",
-        slug: "Mozart-1",
+        slug: "mozart-1",
         type: "Ad Film",
         role: "Director | DOP | Editor",
         details: [
